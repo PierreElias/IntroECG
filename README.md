@@ -1,6 +1,8 @@
-# IntroECG
+# IntroECG: A full-process library for deep learning on 12-lead electrocardiograms
 
-This repository is meant to be a useful resource library for getting started with deep learning work using electrocardiograms. 
+This repository is meant to be a useful resource library for getting started with deep learning work using electrocardiograms. <br>
+
+<img align="right" height="450" src="./Intro_ECG_ValveNet_Model_Full.png">
 
 ## 1-Waveform Extraction
 Scripts and tutorial for extracting raw ECG waveforms from GE Muse or PDFs of ECGs. It also includes examples of how to display and review your ECG data. 
@@ -18,7 +20,7 @@ Different example models we've built to showcase approaches that work for electr
 A framework built on PyTorch Ignite using Optuna to allow for rapid experimentation and displaying your results using Tensorboard
 
 ## Development Team
-Core Developers:<br>
+Lead Developers:<br>
 -Pierre Elias<br>
 -Adler Perotte<br>
 
