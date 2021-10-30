@@ -18,14 +18,14 @@ Different example models we've built to showcase approaches that work for electr
 A framework built on PyTorch Ignite using Optuna to allow for rapid experimentation and displaying your results using Tensorboard
 
 ## Development Team
-Core Developers: 
- Pierre Elias<br>
-Adler Perotte 
+Core Developers:<br>
+Pierre Elias<br>
+Adler Perotte<br>
 
-Contributors:
-Vijay Rajaram
-Shengqing Xia
-Alex Wan
-Junyang Jiang
-Yuge Shen
-Han Wang
+Contributors:<br>
+Vijay Rajaram<br>
+Shengqing Xia<br>
+Alex Wan<br>
+Junyang Jiang<br>
+Yuge Shen<br>
+Han Wang<br>
