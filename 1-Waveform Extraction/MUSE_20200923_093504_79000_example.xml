@@ -5,10 +5,10 @@
       <MuseVersion>9.0.10.18530</MuseVersion>
    </MuseInfo>
    <PatientDemographics>
-      <PatientID>201700237</PatientID>
+      <PatientID>FAKE12345</PatientID>
       <PatientAge>40</PatientAge>
       <AgeUnits>YEARS</AgeUnits>
-      <DateofBirth>06-10-1980</DateofBirth>
+      <DateofBirth>06-10-1900</DateofBirth>
       <Gender>MALE</Gender>
       <Race>ASIAN</Race>
       <HeightCM>180</HeightCM>
@@ -26,8 +26,8 @@
       <Priority>NORMAL</Priority>
       <Location>105</Location>
       <LocationName>SAPERSTEIN 5TH FLOOR</LocationName>
-      <AcquisitionTime>09:03:32</AcquisitionTime>
-      <AcquisitionDate>09-22-2020</AcquisitionDate>
+      <AcquisitionTime>XX:XX:XX</AcquisitionTime>
+      <AcquisitionDate>09-22-20XX</AcquisitionDate>
       <CartNumber>2</CartNumber>
       <AcquisitionSoftwareVersion>009C</AcquisitionSoftwareVersion>
       <AnalysisSoftwareVersion>239</AnalysisSoftwareVersion>
@@ -36,37 +36,37 @@
       <OverreaderID>9902</OverreaderID>
       <EditorID>9902</EditorID>
       <TestReason>Pain, unspecified</TestReason>
-      <OrderingMDLastName>PATEL</OrderingMDLastName>
-      <OrderingMDFirstName>JIGNESH</OrderingMDFirstName>
-      <ReferringMDLastName>FITZGERALD</ReferringMDLastName>
-      <ReferringMDFirstName>CHRISTOPHER</ReferringMDFirstName>
-      <OverreaderLastName>GARG MD</OverreaderLastName>
-      <OverreaderFirstName>RUCHIRA</OverreaderFirstName>
+      <OrderingMDLastName>XXX</OrderingMDLastName>
+      <OrderingMDFirstName>XXX</OrderingMDFirstName>
+      <ReferringMDLastName>XXX</ReferringMDLastName>
+      <ReferringMDFirstName>XXX</ReferringMDFirstName>
+      <OverreaderLastName>XXXX</OverreaderLastName>
+      <OverreaderFirstName>XXXX</OverreaderFirstName>
       <AcquisitionTechLastName>OS</AcquisitionTechLastName>
-      <EditorLastName>GARG MD</EditorLastName>
-      <EditorFirstName>RUCHIRA</EditorFirstName>
+      <EditorLastName>XXXX</EditorLastName>
+      <EditorFirstName>XXXX</EditorFirstName>
       <HISStatus>2</HISStatus>
    </TestDemographics>
    <Order>
-      <RequisitionNumber>272924610</RequisitionNumber>
-      <HISAccountNumber>29154347249</HISAccountNumber>
+      <RequisitionNumber>27292XXXX4610</RequisitionNumber>
+      <HISAccountNumber>291543XXXX47249</HISAccountNumber>
       <HISTestType>EKG200</HISTestType>
-      <OrderingMDHISID>1104914944</OrderingMDHISID>
-      <HISOrderingMDLastName>PATEL</HISOrderingMDLastName>
-      <HISOrderingMDFirstName>JIGNESH</HISOrderingMDFirstName>
+      <OrderingMDHISID>110491XXXX4944</OrderingMDHISID>
+      <HISOrderingMDLastName>XXXX</HISOrderingMDLastName>
+      <HISOrderingMDFirstName>XXXXX</HISOrderingMDFirstName>
       <OrderTime>12:16:11</OrderTime>
       <AdmitTime>00:00:00</AdmitTime>
-      <AdmitDate>2020-09-22</AdmitDate>
+      <AdmitDate>20XX-09-22</AdmitDate>
       <HISLocation>AHEY</HISLocation>
-      <AttendingMDHISID>1447419163</AttendingMDHISID>
-      <AttendingMDLastName>MILLER</AttendingMDLastName>
-      <AttendingMDFirstName>SHAUN</AttendingMDFirstName>
+      <AttendingMDHISID>14474XXXX19163</AttendingMDHISID>
+      <AttendingMDLastName>XXXX</AttendingMDLastName>
+      <AttendingMDFirstName>XXXX</AttendingMDFirstName>
       <HISDisposition>UNK</HISDisposition>
-      <ReferringMDHISID>1558504902</ReferringMDHISID>
-      <PlacersHISID>41349</PlacersHISID>
-      <PlacersLastName>CALZADA</PlacersLastName>
-      <PlacersFirstName>MICHELLE</PlacersFirstName>
-      <OrderPlacementDate>2020-09-22</OrderPlacementDate>
+      <ReferringMDHISID>1558XXXXX04902</ReferringMDHISID>
+      <PlacersHISID>4XXXX1349</PlacersHISID>
+      <PlacersLastName>XXX</PlacersLastName>
+      <PlacersFirstName>XXX</PlacersFirstName>
+      <OrderPlacementDate>20XX-09-22</OrderPlacementDate>
       <OrderPlacementTime>12:16:11</OrderPlacementTime>
       <ReasonForTest>Pain, unspecified</ReasonForTest>
    </Order>
@@ -5083,8 +5083,8 @@ HgAeAB0AHAAZABcAFgAUABUAFQATABIAFAASAA8ADgAKAAgABAABAAMAAwACAAMAAAD9
    </Waveform>
    <PharmaData>
       <PharmaRRinterval>1062</PharmaRRinterval>
-      <PharmaUniqueECGID>SCD11041674PA24092019090332</PharmaUniqueECGID>
+      <PharmaUniqueECGID>SCD11041674PA24XXXXX092019090332</PharmaUniqueECGID>
       <PharmaPPinterval>1071</PharmaPPinterval>
-      <PharmaCartID>SCD11041674PA</PharmaCartID>
+      <PharmaCartID>SCD1104XXXX1674PA</PharmaCartID>
    </PharmaData>
 </RestingECG>
