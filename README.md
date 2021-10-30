@@ -2,7 +2,7 @@
 
 This repository is meant to be a useful resource library for getting started with deep learning work using electrocardiograms. <br>
 
-<img align="right" height="400" src="./Intro_ECG_ValveNet_Model_Full.png">
+<img align="right" width="60%" src="./Intro_ECG_ValveNet_Model_Full.png">
 
 ## 1-Waveform Extraction
 Scripts and tutorial for extracting raw ECG waveforms from GE Muse or PDFs of ECGs. It also includes examples of how to display and review your ECG data. 
