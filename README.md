@@ -19,7 +19,7 @@ A framework built on PyTorch Ignite using Optuna to allow for rapid experimentat
 
 ## Development Team
 Core Developers: 
-Pierre Elias
+ Pierre Elias<br>
 Adler Perotte 
 
 Contributors:
