@@ -9,3 +9,6 @@ tuningfunctions.py: File containing functions used in example.ipynb
 models.py: File containing the model class definitions to be tuned, tuneable parameters should be placed in constants.py and called when using trial.suggest
 
 example.ipynb: Jupyter Notebook detailing the necessary steps to optimize hyperparameters in Ignite+Optuna, including loading data, defining the objective, running trials, and viewing the Tensorboard logs.
+
+# Example Tensorboard Log Output
+<img src="./table.png" width="1000"/>
