@@ -2,10 +2,10 @@
 
 This repository is meant to be a useful resource library for getting started with deep learning work using electrocardiograms. <br>
 
+<img align="right" height="400" src="./Intro_ECG_ValveNet_Model_Full.png">
 
 ## 1-Waveform Extraction
 Scripts and tutorial for extracting raw ECG waveforms from GE Muse or PDFs of ECGs. It also includes examples of how to display and review your ECG data. 
-<img align="right" height="450" src="./Intro_ECG_ValveNet_Model_Full.png">
 
 ## 2-Generating Synthetic ECG Data
 Generate your own synthetic electrocardiograms. Comes with the ability to alter many different aspects of the waveform to test different hypotheses.
