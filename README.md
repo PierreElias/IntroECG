@@ -16,3 +16,16 @@ Different example models we've built to showcase approaches that work for electr
 
 ## 5-Training with Ignite and Optuna
 A framework built on PyTorch Ignite using Optuna to allow for rapid experimentation and displaying your results using Tensorboard
+
+## Development Team
+Core Developers: 
+Pierre Elias
+Adler Perotte 
+
+Contributors:
+Vijay Rajaram
+Shengqing Xia
+Alex Wan
+Junyang Jiang
+Yuge Shen
+Han Wang
