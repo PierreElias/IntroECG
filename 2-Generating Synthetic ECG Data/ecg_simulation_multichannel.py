@@ -93,7 +93,7 @@ def ecg_simulate_multichannel(duration=10, length=None, sampling_rate=1000, nois
         )
     else:
         approx_number_beats = int(np.round(duration * (heart_rate / 60)))
-        ecgs, results = _ecg_simulate_multichannel_ecgsyn(
+        ecgs, results = _ecg_simulate_multichannel_ecgsyn_multichannel(
             sfecg=sampling_rate,
             N=approx_number_beats,
             Anoise=Anoise,
@@ -166,7 +166,7 @@ def _ecg_simulate_multichannel_daubechies(duration=10, length=None, sampling_rat
 # =============================================================================
 # ECGSYN
 # =============================================================================
-def _ecg_simulate_multichannel_ecgsyn(
+def _ecg_simulate_multichannel_ecgsyn_multichannel(
     sfecg=256,
     N=256,
     Anoise=0,
@@ -208,7 +208,7 @@ def _ecg_simulate_multichannel_ecgsyn(
 #    >>> import matplotlib.pyplot as plt
 #    >>> import neurokit2 as nk
 #    >>>
-#    >>> s = _ecg_simulate_multichannel_ecgsynth()
+#    >>> s = _ecg_simulate_multichannel_ecgsyn_multichannelth()
 #    >>> x = np.linspace(0, len(s)-1, len(s))
 #    >>> num_points = 4000
 #    >>>
