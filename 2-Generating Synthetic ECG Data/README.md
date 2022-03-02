@@ -5,7 +5,7 @@ of data, one was synthetic, one was real clinical data. Although we cannot share
 
 ***Simulation Code***
 
-The simlation part includes two files: **'ecg_simulation.py'** and **'parameters. py'**.
+The simlation part includes two files: **'ecg_simulation_multichannel.py'** and **'parameters. py'**.
 
 **Instruction**:
  - Install package **neurokit2**
