@@ -5,7 +5,9 @@ import numpy as np
 sampling_rate = 250 #Hz
 duration = 10 #seconds
 
-## Gamma, a (12,5) matrix to modify the five waves' amplitudes of 12 leads
+leads = ['I', 'II', 'III', 'aVR', 'aVL', 'aVF', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6']
+
+## Gamma, a (12,5) matrix to modify the five waves' amplitudes of 12 leads (P, Q, R, S, T)
 gamma = np.array([[1, 0.1, 1, 1.2, 1],
                    [2, 0.2, 0.2, 0.2, 3],
                    [1, -0.1, -0.8, -1.1, 2.5],
