@@ -19,6 +19,9 @@ Different example models we've built to showcase approaches that work for electr
 ## 5-Training with Ignite and Optuna
 A framework built on PyTorch Ignite using Optuna to allow for rapid experimentation and displaying your results using Tensorboard
 
+## 5-Putting it into Practice: The ValveNet Model
+See the notebooks we used for generating our figures and key results on our valvular heart disease model published in JACC.
+
 For more details, see the accompanying paper,
 
 > [**Deep Learning Electrocardiographic Analysis for Detection of Left-Sided Valvular Heart Disease**](https://www.jacc.org/doi/10.1016/j.jacc.2022.05.029?utm_medium=email_newsletter&utm_source=jacc&utm_campaign=toc&utm_content=20220801#mmc1)<br/>
