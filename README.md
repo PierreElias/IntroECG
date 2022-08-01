@@ -19,7 +19,7 @@ Different example models we've built to showcase approaches that work for electr
 ## 5-Training with Ignite and Optuna
 A framework built on PyTorch Ignite using Optuna to allow for rapid experimentation and displaying your results using Tensorboard
 
-## 5-Putting it into Practice: The ValveNet Model
+## 6-Putting it into Practice: The ValveNet Model
 See the notebooks we used for generating our figures and key results on our valvular heart disease model published in JACC.
 
 For more details, see the accompanying paper,
