@@ -6,3 +6,5 @@
 [ecg_pdf_to_dataframe.py](https://github.com/perottelab/IntroECG/blob/main/1-Waveform%20Extraction/ecg_pdf_to_dataframe.py) shows how to extract vector waveforms from EKGs saved as PDFs (often times the only way people may have access to it), extracting waveforms as SVGs and converting them to .npy arrays. 
 
 [Visualizing_ECGs.ipynb](Visualizing_ECGs.ipynb) shows you how to plot and look at the ECGs themselves.
+
+[Create XML EKG.docx](https://github.com/PierreElias/IntroECG/blob/master/1-Waveform%20Extraction/Create%20XML%20EKG.docx) is a word document that explains how to set up extraction via XML as well automating export for future ECGs. 
