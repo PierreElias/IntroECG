@@ -134,8 +134,8 @@ def xml_to_np_array_file(path_to_xml, path_to_output = os.getcwd()):
 
     lead_data['III'] = (np.array(lead_data["II"]) - np.array(lead_data["I"]))
     lead_data['aVR'] = -(np.array(lead_data["I"]) + np.array(lead_data["II"]))/2
-    lead_data['aVF'] = np.array(lead_data["II"]) + np.array(lead_data["III"])/2
-    lead_data['aVL'] = np.array(lead_data["I"]) - np.array(lead_data["III"])/2
+    lead_data['aVF'] = (np.array(lead_data["II"]) + np.array(lead_data["III"]))/2
+    lead_data['aVL'] = (np.array(lead_data["I"]) - np.array(lead_data["III"]))/2
     
     lead_data = {k: lead_data[k] for k in lead_order}
     # drops V3R, V4R, and V7 if it was a 15-lead ECG
