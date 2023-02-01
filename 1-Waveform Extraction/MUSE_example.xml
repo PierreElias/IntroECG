@@ -6,33 +6,33 @@
    </MuseInfo>
    <PatientDemographics>
       <PatientID>FAKE12345</PatientID>
-      <PatientAge>40</PatientAge>
+      <PatientAge>XX</PatientAge>
       <AgeUnits>YEARS</AgeUnits>
       <DateofBirth>06-10-1900</DateofBirth>
-      <Gender>MALE</Gender>
+      <Gender>XX</Gender>
       <Race>ASIAN</Race>
-      <HeightCM>180</HeightCM>
-      <WeightKG>93</WeightKG>
+      <HeightCM>XX</HeightCM>
+      <WeightKG>XX</WeightKG>
       <PatientLastName>MUSE</PatientLastName>
       <PatientFirstName>TESTONE</PatientFirstName>
    </PatientDemographics>
    <TestDemographics>
       <DataType>RESTING</DataType>
       <Site>1</Site>
-      <SiteName>CEDARS-SINAI MEDICAL CENTER</SiteName>
+      <SiteName>MEDICAL CENTER</SiteName>
       <AcquisitionDevice>MAC55</AcquisitionDevice>
       <Status>CONFIRMED</Status>
       <EditListStatus>Confirmed</EditListStatus>
       <Priority>NORMAL</Priority>
       <Location>105</Location>
-      <LocationName>SAPERSTEIN 5TH FLOOR</LocationName>
+      <LocationName>5TH FLOOR</LocationName>
       <AcquisitionTime>XX:XX:XX</AcquisitionTime>
-      <AcquisitionDate>09-22-20XX</AcquisitionDate>
+      <AcquisitionDate>XX-XX-XXXX</AcquisitionDate>
       <CartNumber>2</CartNumber>
       <AcquisitionSoftwareVersion>009C</AcquisitionSoftwareVersion>
       <AnalysisSoftwareVersion>239</AnalysisSoftwareVersion>
       <EditTime>15:48:46</EditTime>
-      <EditDate>09-22-2020</EditDate>
+      <EditDate>XX-XX-2020</EditDate>
       <OverreaderID>9902</OverreaderID>
       <EditorID>9902</EditorID>
       <TestReason>Pain, unspecified</TestReason>
