@@ -25,7 +25,7 @@
       <EditListStatus>Confirmed</EditListStatus>
       <Priority>NORMAL</Priority>
       <Location>105</Location>
-      <LocationName>5TH FLOOR</LocationName>
+      <LocationName>5TH_FLOOR</LocationName>
       <AcquisitionTime>XX:XX:XX</AcquisitionTime>
       <AcquisitionDate>XX-XX-XXXX</AcquisitionDate>
       <CartNumber>2</CartNumber>
