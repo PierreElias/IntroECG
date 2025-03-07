@@ -2,7 +2,7 @@
 
   <img src="https://github.com/Gourieff/Assets/raw/main/sd-webui-reactor/ReActor_logo_NEW_RU.png?raw=true" alt="logo" width="180px"/>
 
-  ![Version](https://img.shields.io/badge/версия_нода-0.5.2_beta1-green?style=for-the-badge&labelColor=darkgreen)
+  ![Version](https://img.shields.io/badge/версия_нода-0.6.0_alpha1-lightgreen?style=for-the-badge&labelColor=darkgreen)
   
   <!--<sup>
   <font color=brightred>
@@ -55,7 +55,20 @@
 
 ## Что нового в последнем обновлении
 
-### 0.5.2 <sub><sup>BETA1</sup></sub>
+### 0.6.0 <sub><sup>ALPHA1</sup></sub>
+
+- Новый нод `ReActorSetWeight` - теперь можно установить силу замены лица для `source_image` или `face_model` от 0% до 100% (с шагом 12.5%)
+
+<center>
+<img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.6.0-whatsnew-01.jpg?raw=true" alt="0.6.0-whatsnew-01" width="100%"/>
+<img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.6.0-whatsnew-02.jpg?raw=true" alt="0.6.0-whatsnew-02" width="100%"/>
+<img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.6.0-alpha1-01.gif?raw=true" alt="0.6.0-whatsnew-03" width="540px"/>
+</center>
+
+<details>
+	<summary><a>Предыдущие версии</a></summary>
+
+### 0.5.2
 
 - Поддержка моделей ReSwapper. Несмотря на то, что Inswapper по-прежнему даёт лучшее сходство, но ReSwapper развивается - спасибо @somanchiu https://github.com/somanchiu/ReSwapper за эти модели и проект ReSwapper! Это хороший шаг для Сообщества в создании альтернативы Инсваппера!
 
@@ -68,8 +81,6 @@
 https://huggingface.co/datasets/Gourieff/ReActor/tree/main/models<br>
 Сохраните их в директорию "models/reswapper".
 
-### 0.5.2 <sub><sup>ALPHA1</sup></sub>
-
 - Новый нод "Unload ReActor Models" - полезен для сложных воркфлоу, когда вам нужно освободить ОЗУ, занятую РеАктором
 
 <img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.5.2-whatsnew-01.jpg?raw=true" alt="0.5.2-whatsnew-01" width="100%"/>
@@ -77,10 +88,11 @@ https://huggingface.co/datasets/Gourieff/ReActor/tree/main/models<br>
 - Поддержка ORT CoreML and ROCM EPs, достаточно установить ту версию onnxruntime, которая соответствует вашему GPU
 - Некоторые улучшения скрипта установки для поддержки последней версии ORT-GPU
 
+<center>
 <img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.5.2-whatsnew-02.jpg?raw=true" alt="0.5.2-whatsnew-02" width="50%"/>
+</center>
 
-<details>
-	<summary><a>Предыдущие версии</a></summary>
+- Исправления и улучшения
 
 ### 0.5.1
 

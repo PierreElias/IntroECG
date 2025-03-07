@@ -2,7 +2,7 @@
 
   <img src="https://github.com/Gourieff/Assets/raw/main/sd-webui-reactor/ReActor_logo_NEW_EN.png?raw=true" alt="logo" width="180px"/>
 
-  ![Version](https://img.shields.io/badge/node_version-0.5.2_beta1-green?style=for-the-badge&labelColor=darkgreen)
+  ![Version](https://img.shields.io/badge/node_version-0.6.0_alpha1-lightgreen?style=for-the-badge&labelColor=darkgreen)
 
   <!--<sup>
   <font color=brightred>
@@ -55,7 +55,20 @@
 
 ## What's new in the latest update
 
-### 0.5.2 <sub><sup>BETA1</sup></sub>
+### 0.6.0 <sub><sup>ALPHA1</sup></sub>
+
+- New Node `ReActorSetWeight` - you can now set the strength of face swap for `source_image` or `face_model` from 0% to 100% (in 12.5% step)
+
+<center>
+<img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.6.0-whatsnew-01.jpg?raw=true" alt="0.6.0-whatsnew-01" width="100%"/>
+<img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.6.0-whatsnew-02.jpg?raw=true" alt="0.6.0-whatsnew-02" width="100%"/>
+<img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.6.0-alpha1-01.gif?raw=true" alt="0.6.0-whatsnew-03" width="540px"/>
+</center>
+
+<details>
+	<summary><a>Previous versions</a></summary>
+
+### 0.5.2
 
 - ReSwapper models support. Although Inswapper still has the best similarity, but ReSwapper is evolving - thanks @somanchiu https://github.com/somanchiu/ReSwapper for the ReSwapper models and the ReSwapper project! This is a good step for the Community in the Inswapper's alternative creation!
 
@@ -68,8 +81,6 @@ You can download ReSwapper models here:
 https://huggingface.co/datasets/Gourieff/ReActor/tree/main/models<br>
 Just put them into the "models/reswapper" directory.
 
-### 0.5.2 <sub><sup>ALPHA1</sup></sub>
-
 - New node "Unload ReActor Models" - is useful for complex WFs when you need to free some VRAM utilized by ReActor
 
 <img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.5.2-whatsnew-01.jpg?raw=true" alt="0.5.2-whatsnew-01" width="100%"/>
@@ -77,10 +88,11 @@ Just put them into the "models/reswapper" directory.
 - Support of ORT CoreML and ROCM EPs, just install onnxruntime version you need
 - Install script improvements to install latest versions of ORT-GPU
 
+<center>
 <img src="https://github.com/Gourieff/Assets/blob/main/comfyui-reactor-node/0.5.2-whatsnew-02.jpg?raw=true" alt="0.5.2-whatsnew-02" width="50%"/>
+</center>
 
-<details>
-	<summary><a>Previous versions</a></summary>
+- Fixes and improvements
 
 ### 0.5.1
 

@@ -330,9 +330,9 @@ def swap_face(
             elif source_face is not None:
                 result = target_img
                 if "inswapper" in model:
-                    model_path = model_path = os.path.join(insightface_path, model)
+                    model_path = os.path.join(insightface_path, model)
                 elif "reswapper" in model:
-                    model_path = model_path = os.path.join(reswapper_path, model)
+                    model_path = os.path.join(reswapper_path, model)
                 face_swapper = getFaceSwapModel(model_path)
 
                 source_face_idx = 0

@@ -472,6 +472,106 @@ class LoadFaceModel:
         return (out, )
 
 
+class ReActorWeight:
+    @classmethod
+    def INPUT_TYPES(s):
+        return {
+            "required": {
+                "input_image": ("IMAGE",),
+                "faceswap_weight": (["0%", "12.5%", "25%", "37.5%", "50%", "62.5%", "75%", "87.5%", "100%"], {"default": "50%"}),
+            },
+            "optional": {
+                "source_image": ("IMAGE",),
+                "face_model": ("FACE_MODEL",),
+            }
+        }
+    
+    RETURN_TYPES = ("IMAGE","FACE_MODEL")
+    RETURN_NAMES = ("INPUT_IMAGE","FACE_MODEL")
+    FUNCTION = "set_weight"
+
+    OUTPUT_NODE = True
+
+    CATEGORY = "🌌 ReActor"
+
+    def set_weight(self, input_image, faceswap_weight, face_model=None, source_image=None):
+
+        if input_image is None:
+            logger.error("Please provide `input_image`")
+            return (input_image,None)
+        
+        if source_image is None and face_model is None:
+            logger.error("Please provide `source_image` or `face_model`")
+            return (input_image,None)
+
+        weight = float(faceswap_weight.split("%")[0])
+
+        images = []
+        faces = [] if face_model is None else [face_model]
+        embeddings = [] if face_model is None else [face_model.embedding]
+
+        if weight == 0:
+            images = [input_image]
+            faces = []
+            embeddings = []
+        elif weight == 100:
+            if face_model is None:
+                images = [source_image]
+        else:
+            if weight > 50:
+                images = [input_image]
+                count = round(100/(100-weight))
+            else:
+                if face_model is None:
+                    images = [source_image]
+                count = round(100/(weight))
+            for i in range(count-1):
+                if weight > 50:
+                    if face_model is None:
+                        images.append(source_image)
+                    else:
+                        faces.append(face_model)
+                        embeddings.append(face_model.embedding)
+                else:
+                    images.append(input_image)
+        
+        images_list: List[Image.Image] = []
+
+        apply_patch(1)
+
+        if len(images) > 0:
+
+            for image in images:
+                img = tensor_to_pil(image)
+                images_list.append(img)
+
+            for image in images_list:
+                face = BuildFaceModel.build_face_model(self,image)
+                if isinstance(face, str):
+                    continue
+                faces.append(face)
+                embeddings.append(face.embedding)
+        
+        if len(faces) > 0:
+            blended_embedding = np.mean(embeddings, axis=0)
+            blended_face = Face(
+                bbox=faces[0].bbox,
+                kps=faces[0].kps,
+                det_score=faces[0].det_score,
+                landmark_3d_68=faces[0].landmark_3d_68,
+                pose=faces[0].pose,
+                landmark_2d_106=faces[0].landmark_2d_106,
+                embedding=blended_embedding,
+                gender=faces[0].gender,
+                age=faces[0].age
+            )
+            if blended_face is None:
+                no_face_msg = "Something went wrong, please try another set of images"
+                logger.error(no_face_msg)
+
+        return (input_image,blended_face)
+
+
 class BuildFaceModel:
     def __init__(self):
         self.output_dir = FACE_MODELS_PATH
@@ -1205,6 +1305,7 @@ NODE_CLASS_MAPPINGS = {
     "ReActorOptions": ReActorOptions,
     "ReActorFaceBoost": ReActorFaceBoost,
     "ReActorMaskHelper": MaskHelper,
+    "ReActorSetWeight": ReActorWeight,
     # --- Operations with Face Models ---
     "ReActorSaveFaceModel": SaveFaceModel,
     "ReActorLoadFaceModel": LoadFaceModel,
@@ -1224,6 +1325,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "ReActorOptions": "ReActor 🌌 Options",
     "ReActorFaceBoost": "ReActor 🌌 Face Booster",
     "ReActorMaskHelper": "ReActor 🌌 Masking Helper",
+    "ReActorSetWeight": "ReActor 🌌 Set Face Swap Weight",
     # --- Operations with Face Models ---
     "ReActorSaveFaceModel": "Save Face Model 🌌 ReActor",
     "ReActorLoadFaceModel": "Load Face Model 🌌 ReActor",
