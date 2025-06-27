@@ -30,8 +30,12 @@ For more details, see the accompanying paper,
 
 ## 7-Running Inference: The EchoNext Minimodel
 
+To run EchoNext inference, follow the steps here: [README.md](7-EchoNext%20Minimodel/README.md)
+
 For more details, see the accompanying paper,
 > Paper coming soon
+
+> PhysioNet dataset coming soon
 
 ## Development Team
 Lead Developers:<br>

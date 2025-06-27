@@ -16,7 +16,7 @@ All xmls are expected in a flat folder in a single directory with `*.xml` file n
    - tr_max_gte_32
    - shd
 
-   **Note**: If the xml data has already been preprocessed into numpy waveform and feature arrays, skip to step C. to run inference.
+   > **Note**: If the xml data has already been preprocessed into numpy waveform and feature arrays, as is the case with the [PhysioNet: Detecting structural heart disease with ECGs using the EchoNext model](<link to be added>) dataset, skip to step C. to run inference.
 
 ## II. Docker and All-in-One Command
 
@@ -96,6 +96,8 @@ Input arguments:
 ### C. Inference
 
 Run inference with best model checkpoint to get prediction scores. 
+
+> **Note**: Ensure that the correct path names are specified for the features and tabular numpy arrays. This should automatically be the case when running the default docker CMD `runall.sh` starting from `parse_xml.py`. However, if running inference starting from preprocessed numpy arrays, then the file names must match the input arguments to `cradlenet/scripts/inference/ecg_tabular.py`.
 
 Command: 
 ```
