@@ -1,0 +1,2 @@
+﻿ecg_id,lvef_lte_45,lvwt_gte_13,aortic_stenosis_moderate_severe,aortic_regurgitation_moderate_severe,mitral_regurgitation_moderate_severe,tricuspid_regurgitation_moderate_severe,pulmonary_regurgitation_moderate_severe,rv_systolic_dysfunction_moderate_severe,pericardial_effusion_moderate_large,pasp_gte_45,tr_max_gte_32,shd
+MUSE_example,1,0,0,0,0,0,0,0,0,0,0,1

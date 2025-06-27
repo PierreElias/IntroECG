@@ -27,6 +27,16 @@ For more details, see the accompanying paper,
 > [**Deep Learning Electrocardiographic Analysis for Detection of Left-Sided Valvular Heart Disease**](https://www.jacc.org/doi/10.1016/j.jacc.2022.05.029?utm_medium=email_newsletter&utm_source=jacc&utm_campaign=toc&utm_content=20220801#mmc1)<br/>
   Pierre Elias, Timothy J. Poterucha, Vijay Rajaram, Luca Matos Moller, Victor Rodriguez, Shreyas Bhave, Rebecca T. Hahn, Geoffrey Tison, Sean A. Abreau, Joshua Barrios, Jessica Nicole Torres, J. Weston Hughes, Marco V. Perez, Joshua Finer, Susheel Kodali, Omar Khalique, Nadira Hamid, Allan Schwartz, Shunichi Homma, Deepa Kumaraiah, David J. Cohen, Mathew S. Maurer, Andrew J. Einstein, Tamim Nazif, Martin B. Leon, and Adler J. Perotte. <b>Journal of the American College of Cardiology</b>, August 1, 2022. https://www.jacc.org/doi/10.1016/j.jacc.2022.05.029?utm_medium=email_newsletter&utm_source=jacc&utm_campaign=toc&utm_content=20220801#mmc1
 
+
+## 7-Running Inference: The EchoNext Minimodel
+
+To run EchoNext inference, follow the steps here: [README.md](7-EchoNext%20Minimodel/README.md)
+
+For more details, see the accompanying paper,
+> Paper coming soon
+
+> PhysioNet dataset coming soon
+
 ## Development Team
 Lead Developers:<br>
 [-Pierre Elias](https://twitter.com/PierreEliasMD)<br>
@@ -39,3 +49,4 @@ Contributors:<br>
 -Junyang Jiang<br>
 -Yuge Shen<br>
 -Han Wang<br>
+-Joshua Finer

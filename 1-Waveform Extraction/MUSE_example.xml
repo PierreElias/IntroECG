@@ -6,10 +6,10 @@
    </MuseInfo>
    <PatientDemographics>
       <PatientID>FAKE12345</PatientID>
-      <PatientAge>XX</PatientAge>
+      <PatientAge>50</PatientAge>
       <AgeUnits>YEARS</AgeUnits>
       <DateofBirth>06-10-1900</DateofBirth>
-      <Gender>XX</Gender>
+      <Gender>MALE</Gender>
       <Race>ASIAN</Race>
       <HeightCM>XX</HeightCM>
       <WeightKG>XX</WeightKG>
