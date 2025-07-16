@@ -33,7 +33,9 @@ For more details, see the accompanying paper,
 To run EchoNext inference, follow the steps here: [README.md](7-EchoNext%20Minimodel/README.md)
 
 For more details, see the accompanying paper,
-> Paper coming soon
+> [**Detecting structural heart disease from electrocardiograms using AI**](https://www.nature.com/articles/s41586-025-09227-0)<br/>
+Timothy J. Poterucha, Linyuan Jing, Ramon Pimentel Ricart, Michael Adjei-Mosi, Joshua Finer, Dustin Hartzel, Christopher Kelsey, Aaron Long, Daniel Rocha, Jeffrey A. Ruhl, David vanMaanen, Marc A. Probst, Brock Daniels, Shalmali D. Joshi, Olivier Tastet, Denis Corbin, Robert Avram, Joshua P. Barrios, Geoffrey H. Tison, I-Min Chiu, David Ouyang, Alexander Volodarskiy, Michelle Castillo, Francisco A. Roedan Oliver, Paloma P. Malta, Siqin Ye, Gregg F. Rosner, Jose M. Dizon, Shah R. Ali, Qi Liu, Corey K. Bradley, Prashant Vaishnava, Carol A. Waksmonski, Ersilia M. DeFilippis, Vratika Agarwal, Mark Lebehn, Polydoros N. Kampaktsis, Sofia Shames, Ashley N. Beecy, Deepa Kumaraiah, Shunichi Homma, Allan Schwartz, Rebecca T. Hahn, Martin Leon, Andrew J. Einstein, Mathew S. Maurer, Heidi S. Hartman, John Weston Hughes, Christopher M. Haggerty & Pierre Elias. <b>Nature</b>, July 16, 2025. https://doi.org/10.1038/s41586-025-09227-0
+
 
 > PhysioNet dataset coming soon
 
