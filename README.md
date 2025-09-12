@@ -41,7 +41,8 @@ Timothy J. Poterucha, Linyuan Jing, Ramon Pimentel Ricart, Michael Adjei-Mosi, J
 
 ## 8-CADNet ATTR Model
 
-> Coming soon
+A minimal implementation if the CADNet inference inference pipeline for the detection of ATTR-CM is available here: [README.md](8-CADNet%ATTR%Model/README.md)
+
 
 
 ## Development Team
