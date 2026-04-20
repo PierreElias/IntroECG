@@ -37,7 +37,7 @@ For more details, see the accompanying paper,
 J. Weston Hughes,  Linyuan Jing, Joshua Finer,  Dustin Hartzel, Christopher Kelsey, Aaron Long, Daniel Rocha, Jeffrey Ruhl, Timothy J. Poterucha, and Pierre Elias. <b>NEJM AI</b>, April 16, 2026. https://ai.nejm.org/doi/10.1056/AIdbp2500516
 
 
-The EchoNext-Mini dataset is additionall available [here](https://physionet.org/content/echonext).
+The EchoNext-Mini dataset is additionally available [here](https://physionet.org/content/echonext).
 
 ## 8-CADNet ATTR Model
 
