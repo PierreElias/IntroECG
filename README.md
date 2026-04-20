@@ -30,14 +30,14 @@ For more details, see the accompanying paper,
 
 ## 7-Running Inference: The EchoNext Minimodel
 
-To run EchoNext inference, follow the steps here: [README.md](7-EchoNext%20Minimodel/README.md)
+To run EchoNext inference, follow the steps here: [README.md](7-EchoNext%20Minimodel/README.md).
 
 For more details, see the accompanying paper,
-> [**Detecting structural heart disease from electrocardiograms using AI**](https://www.nature.com/articles/s41586-025-09227-0)<br/>
-Timothy J. Poterucha, Linyuan Jing, Ramon Pimentel Ricart, Michael Adjei-Mosi, Joshua Finer, Dustin Hartzel, Christopher Kelsey, Aaron Long, Daniel Rocha, Jeffrey A. Ruhl, David vanMaanen, Marc A. Probst, Brock Daniels, Shalmali D. Joshi, Olivier Tastet, Denis Corbin, Robert Avram, Joshua P. Barrios, Geoffrey H. Tison, I-Min Chiu, David Ouyang, Alexander Volodarskiy, Michelle Castillo, Francisco A. Roedan Oliver, Paloma P. Malta, Siqin Ye, Gregg F. Rosner, Jose M. Dizon, Shah R. Ali, Qi Liu, Corey K. Bradley, Prashant Vaishnava, Carol A. Waksmonski, Ersilia M. DeFilippis, Vratika Agarwal, Mark Lebehn, Polydoros N. Kampaktsis, Sofia Shames, Ashley N. Beecy, Deepa Kumaraiah, Shunichi Homma, Allan Schwartz, Rebecca T. Hahn, Martin Leon, Andrew J. Einstein, Mathew S. Maurer, Heidi S. Hartman, John Weston Hughes, Christopher M. Haggerty & Pierre Elias. <b>Nature</b>, July 16, 2025. https://doi.org/10.1038/s41586-025-09227-0
+> [**EchoNext-Mini: A Dataset and Baseline AI Model for Detecting Structural Heart Disease from Electrocardiograms**](https://ai.nejm.org/doi/10.1056/AIdbp2500516)<br/>
+J. Weston Hughes,  Linyuan Jing, Joshua Finer,  Dustin Hartzel, Christopher Kelsey, Aaron Long, Daniel Rocha, Jeffrey Ruhl, Timothy J. Poterucha, and Pierre Elias. <b>NEJM AI</b>, April 16, 2026. https://ai.nejm.org/doi/10.1056/AIdbp2500516
 
 
-> PhysioNet dataset coming soon
+The EchoNext-Mini dataset is additionall available [here](https://physionet.org/content/echonext).
 
 ## 8-CADNet ATTR Model
 

@@ -1,3 +1,7 @@
+When using this resource, please cite 
+> [**EchoNext-Mini: A Dataset and Baseline AI Model for Detecting Structural Heart Disease from Electrocardiograms**](https://ai.nejm.org/doi/10.1056/AIdbp2500516)<br/>
+J. Weston Hughes,  Linyuan Jing, Joshua Finer,  Dustin Hartzel, Christopher Kelsey, Aaron Long, Daniel Rocha, Jeffrey Ruhl, Timothy J. Poterucha, and Pierre Elias. <b>NEJM AI</b>, April 16, 2026. https://ai.nejm.org/doi/10.1056/AIdbp2500516
+
 # EchoNext model inference 
 
 The notebook [EchoNext_Mini_example.ipynb](https://github.com/PierreElias/IntroECG/blob/master/7-EchoNext%20Minimodel/EchoNext_Mini_example.ipynb) contains examples of loading the EchoNext-Mini dataset and evaluating the outputs of the model.
