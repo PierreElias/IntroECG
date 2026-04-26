@@ -1,0 +1,20 @@
+{
+  "effortLevel": "max",
+  "statusLine": {
+    "type": "command",
+    "command": "/Users/pae2/.claude/scripts/statusline.sh",
+    "refreshInterval": 10
+  },
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Users/pae2/.claude/scripts/statusline.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
